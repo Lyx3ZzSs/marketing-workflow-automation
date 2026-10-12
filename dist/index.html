@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="立项查重工作台演示：综合客户、项目名称、地点和项目内容，展示重复线索及比对依据。">
-  <title>立项查重 · 项目工作台</title>
+  <meta name="description" content="流程审批.立项演示：综合客户、项目名称、地点和项目内容，展示重复线索及审核依据。">
+  <title>流程审批.立项</title>
   <link rel="stylesheet" href="./styles.css">
   <script type="module" src="./app.js"></script>
 </head>
 <body>
   <aside class="sidebar">
-    <a class="brand" href="./" aria-label="项目工作台首页"><span class="brand-symbol">序</span><span>项目工作台<small>PROJECT WORKSPACE</small></span></a>
-    <div class="nav-caption">项目管理</div>
-    <div class="nav-item active"><span aria-hidden="true">▦</span> 立项查重 <span class="nav-count">01</span></div>
+    <a class="brand" href="./" aria-label="流程审批.立项首页"><span class="brand-symbol">序</span><span>流程审批.立项<small>FLOW APPROVAL</small></span></a>
+    <div class="nav-caption">审批阶段</div>
+    <div class="nav-item active"><span aria-hidden="true">▦</span> 立项 <span class="nav-count">01</span></div>
     <div class="sidebar-note"><span class="small-dot"></span><div>让每一次立项<br>都有清晰依据。</div></div>
     <div class="sidebar-foot"><div class="avatar">示</div><div>演示工作空间<small>虚构数据 · 体验版</small></div></div>
   </aside>
   <div class="workspace">
-    <header class="topbar"><span>项目管理 <span class="slash">/</span> <strong>立项查重</strong></span><button class="quiet" id="rule-button"><span aria-hidden="true">ⓘ</span> 查看查重规则</button></header>
+    <header class="topbar"><strong>流程审批.立项</strong><button class="quiet" id="rule-button"><span aria-hidden="true">ⓘ</span> 查看查重规则</button></header>
     <main>
-      <div class="page-heading"><div><div class="eyebrow">PROJECT INTAKE / 01</div><h1>立项之前，先查重。</h1><p>输入项目编号，发现重复线索，查看每一项判断依据。</p></div><span class="mode"><span class="small-dot"></span> 示例数据演示</span></div>
+      <div class="page-heading"><div><div class="eyebrow">FLOW APPROVAL / INITIATION</div><h1>流程审批.立项</h1><p>输入项目编号，检查重复项目，查看审核结果与判断依据。</p></div><span class="mode"><span class="small-dot"></span> 示例数据演示</span></div>
       <section class="search-panel" aria-labelledby="search-title">
         <div class="section-label"><span class="step">01</span><h2 id="search-title">选择要检查的项目</h2></div>
         <form id="review-form">
@@ -33,7 +33,7 @@
         <section class="empty-panel"><div class="scan-graphic" aria-hidden="true"><div class="doc back"></div><div class="doc front"><i></i><i></i><i></i><span>✓</span></div></div><div class="eyebrow">READY WHEN YOU ARE</div><h2>一份项目资料，四个比对维度</h2><p>从客户到项目内容，查找可能的重复申报。<br>检查结果会保留匹配原因，便于进一步核实。</p><div class="dimension-strip"><span>01 客户</span><span>02 项目名称</span><span>03 地点</span><span>04 项目内容</span></div></section>
       </div>
       <section id="history-section" class="history-section" hidden><div class="history-heading"><h2>本次访问的查重记录</h2><button class="quiet" id="clear-history">清空记录</button></div><div id="history"></div></section>
-      <footer><span>立项查重工作台</span><span>各场景使用独立示例台账 · 未连接致远 · 不执行 OA 审批</span></footer>
+      <footer><span>流程审批.立项</span><span>各场景使用独立示例台账 · 未连接致远 · 不执行 OA 审批</span></footer>
     </main>
   </div>
   <dialog id="rules-dialog" aria-labelledby="rules-title"><div class="dialog-heading"><div><div class="eyebrow">MATCHING POLICY</div><h2 id="rules-title">查重规则说明</h2></div><button id="close-rules" class="close" aria-label="关闭查重规则">×</button></div><p class="notice">以下为演示规则，尚未作为正式业务标准确认。</p><div id="rules-content"></div><p>使用字符相似度寻找线索，不理解客户别名、行政区划层级或项目语义。不同期次、不同标段等情况需要人工核实；匹配分数不是重复概率。</p><p>演示范围包含全部示例状态。真实台账的纳入范围、字段映射和判定标准需要配置后联调。</p></dialog>
