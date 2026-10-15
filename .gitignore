@@ -2,6 +2,14 @@
 .env.*
 !.env.example
 node_modules/
+local-data/
+__pycache__/
+*.pyc
 .DS_Store
 *.tar.gz
 *.png
+!public/favicon.png
+.venv/
+.next/
+*.tsbuildinfo
+next-env.d.ts

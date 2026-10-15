@@ -1,0 +1,2856 @@
+{
+  "table": "formmain_8861",
+  "source_filename": "项目合同台账.txt",
+  "verified_against_snapshot_at": "2026-10-12T02:48:37.361227+00:00",
+  "business_field_count": 354,
+  "database_column_count": 367,
+  "columns_without_display_name": [
+    "ID",
+    "approve_date",
+    "approve_member_id",
+    "finishedflag",
+    "modify_date",
+    "modify_member_id",
+    "ratify_date",
+    "ratify_member_id",
+    "ratifyflag",
+    "sort",
+    "start_date",
+    "start_member_id",
+    "state"
+  ],
+  "fields": [
+    {
+      "column": "field0001",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "主立项人",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0002",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "立项日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0003",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "所属大区",
+      "input_type": "选部门",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0183",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "主立项人岗位",
+      "input_type": "选岗位",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0184",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "主立项人工号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0375",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目状态-图片",
+      "input_type": "图片下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0004",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "辅立项人",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0005",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "销售助理",
+      "input_type": "选岗位",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0006",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目进度",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0376",
+      "declared_type": "VARCHAR",
+      "length": "100",
+      "display_name": "当前流程",
+      "input_type": "文本",
+      "final_type": "VARCHAR(100)"
+    },
+    {
+      "column": "field0466",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "统计完结",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0051",
+      "declared_type": "LONGTEXT",
+      "length": "",
+      "display_name": "项目进展情况",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0007",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目编码",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0008",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0190",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "原商务合同立项-项目名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0191",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "原商务合同编码-项目编码",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0407",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "产品线",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0020",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "产品类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0423",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "主要范围",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0022",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0404",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否是改造品",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0405",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "改造内容",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0406",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "改造内容-其他",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0424",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "服务年份",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0186",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "场站类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0185",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "场站类型分类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0018",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "场站编码",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0017",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "场站名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0016",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目所在国家",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0013",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目所在省份",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0014",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目所在市",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0015",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目所在区 县",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0048",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目所在行政区域",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0049",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目实际所在大区",
+      "input_type": "选部门",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0047",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "预计采购时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0050",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "是否跨区域立项",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0202",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "售前技术支持",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0219",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "销售模式",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0540",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否是新品",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0019",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "用户类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0408",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "产品目录",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0021",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "产品功能",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0024",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "电厂名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0025",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "装机容量MW",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,6)"
+    },
+    {
+      "column": "field0188",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "变流器额定功率",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0189",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "储能容量 MWh",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0026",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "一二类公司产品",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0027",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "一二类产品子类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0032",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "一类二类立项名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0374",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否综自厂家",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0033",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "电网分类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0034",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "三类对应部门",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0035",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "某市电力公司",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0425",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "三类项目-年份",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0036",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "三类公司产品",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0037",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "三类产品子类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0426",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目分类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0038",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "三类立项名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0340",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "报价信息发起日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0341",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "报价信息是否签单",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0342",
+      "declared_type": "VARCHAR",
+      "length": "4000",
+      "display_name": "报价信息未签单原因",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0343",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "签单方",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0009",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "立项时项目业主方全称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0010",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目业主方简称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0011",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "立项时填写合同需方",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0012",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目总包方",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0192",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "风机厂",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0387",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "风机厂负责人",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0031",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "综自厂家",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0386",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "综自负责人",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0030",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "替换的原厂家",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0427",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "回款综自框架",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0419",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "投标申请流水号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0335",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "招投标发起时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0336",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "招投标开标日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0337",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "招投标是否中标",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0339",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "招投标中标方",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0338",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "招投标未中标原因",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0203",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否为投标项目",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0053",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "合同会签流水号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0379",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "合同号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0040",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "客户名称实际签订需方",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0410",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "客户级别",
+      "input_type": "下拉",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0039",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "客户编码",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0530",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "大客户分类",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0531",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否与业主直签合同",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0532",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "不是业主直签合同的原因",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0538",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "使用此代理商原因",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0054",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "合同名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0411",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "框架报价流水号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0055",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "合同签订日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0056",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0541",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "币种",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0543",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同金额外币",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,6)"
+    },
+    {
+      "column": "field0544",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "汇率",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,4)"
+    },
+    {
+      "column": "field0549",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "纸质合同总金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0057",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "采购成本",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0058",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "软件额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0059",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同硬件金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0060",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同软件服务金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0211",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "其他软件及服务合同金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0061",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "变更金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0062",
+      "declared_type": "VARCHAR",
+      "length": "4000",
+      "display_name": "变更内容",
+      "input_type": "文本",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0063",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "服务合同开始日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0064",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "服务合同结束日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0065",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "服务期限总天数",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,5)"
+    },
+    {
+      "column": "field0066",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "服务费每天元",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0067",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保金比例",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0068",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保金金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0069",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保金期限月",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,1)"
+    },
+    {
+      "column": "field0070",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "新-合同原始税率",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0071",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "合同发生税率",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0214",
+      "declared_type": "DECIMAL",
+      "length": "22",
+      "display_name": "合同不含税金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(22,2)"
+    },
+    {
+      "column": "field0215",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否明确不含税",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0223",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "软件质保期月",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0072",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "硬件质保期月",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0073",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保期起始标准",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0075",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "技术服务费金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0450",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "年服务费金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0074",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "功率预测包含几年技术服务",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0205",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "非功率预测包含几年技术服务",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0225",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "功率预测包含几年服务费修改备注",
+      "input_type": "文本",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0077",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同状态",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0076",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0539",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "会签合同类型转换",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0078",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否软著",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0079",
+      "declared_type": "LONGTEXT",
+      "length": "",
+      "display_name": "软著说明",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0208",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "非软著说明",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0209",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "软著修改方案",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0080",
+      "declared_type": "VARCHAR",
+      "length": "1000",
+      "display_name": "合同付款条款",
+      "input_type": "文本",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0081",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "客户合同号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0082",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否有考核条款",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0083",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "考核条款说明",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0084",
+      "declared_type": "VARCHAR",
+      "length": "4000",
+      "display_name": "特殊备注",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0178",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "合同备注",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0176",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同是否移交",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0177",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同是否签回",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0193",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "合同签回日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0210",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "收款银行信息",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0212",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "进场实施内容",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0213",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "合同付款资料",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0248",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "半年前日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0220",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "技术协议是否签回",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0245",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "近半年开票金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0246",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "近半年回款额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0222",
+      "declared_type": "VARCHAR",
+      "length": "4000",
+      "display_name": "二次会签原因说明",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0216",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "对比日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0257",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "硬件出质保期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0380",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "核定限额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0392",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "验收文件盖章名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0393",
+      "declared_type": "VARCHAR",
+      "length": "2550",
+      "display_name": "合同特殊条款",
+      "input_type": "文本域",
+      "final_type": "LONGTEXT"
+    },
+    {
+      "column": "field0388",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "验收资料",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0451",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "服务合同大客户",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0092",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计收款金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0221",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计收款占比",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0093",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "剩余金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0100",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "已开票金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0101",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "开票比例",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0102",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "剩余金额-发票情况",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0378",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "软著总金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0457",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否确认收入-新",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0497",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计预缴税额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0498",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计开票税额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0499",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "余额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0500",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计冲销税额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0119",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "测风塔选址",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0120",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "测风塔立塔日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0121",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否有测风塔",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0122",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "采购申请日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0123",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "申请发货日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0124",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "物流签收日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0126",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "签收附件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0350",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否有非标设备",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0346",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "退货信息发起时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0345",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "退回信息",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0347",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否可二次使用",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0344",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "退货明细",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0349",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "退货流水号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0241",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "设备签收日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0242",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "安装调试日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0243",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "终验日期验收日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0244",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "离场日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0417",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否委托开发",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0438",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "收入日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0556",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "周期合同验收时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0144",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目成本总金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0355",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "报销总金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0356",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "成本加报销总金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0264",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目成本情况采购总成本",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0265",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目成本情况补采总成本",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0266",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目成本情况维修总成本",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0125",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "客户签收日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0151",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "停止服务原因类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0153",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同文件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0154",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同变更文件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0155",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "技术协议",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0156",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "律师函",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0157",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "调试报告",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0158",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "验收报告",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0159",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "其他验收资料",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0160",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "发票",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0161",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "回款单",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0162",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "报价单",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0163",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "标书",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0164",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "提前备货函",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0165",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "催款函-附件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0166",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "起诉书",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0167",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "设备签收单",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0168",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "物流签收单",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0169",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "提前实施函",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0418",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "委托开发文件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0181",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "延期次数隐藏",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0182",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "延期日期隐藏",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0187",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否已立项",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0194",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "电力交易部门判断辅助隐藏",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0200",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否已立项值",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0255",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "项目唯一值",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0267",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目立项查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0268",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "测风塔项目跟踪查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0269",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "服务合同大客户变更查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0270",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同移交查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0271",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "免费升级改造查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0272",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同收据查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0277",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "立项修改查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0280",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目验收查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0281",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "起诉流程查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0282",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "替换流程查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0283",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "投标申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0285",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目退货申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0286",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "电网建模查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0287",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "电网交易项目查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0288",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "框架报价申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0289",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "补报价申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0290",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "报价单盖章查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0291",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目实施工单查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0292",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "超短期升级申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0293",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "停止服务查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0294",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "发电量预测建模查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0302",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "客户方合同会签查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0308",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "非标询价申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0309",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "催款函查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0310",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目回款新查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0311",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目合同开票查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0312",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目发货查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0313",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "履约保函保证金查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0314",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "技术支持问题记录查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0315",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "建模申请",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0316",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "产品许可证查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0317",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "扩容申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0318",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "履约保函返回查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0319",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同变更查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0321",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目取消查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0322",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "采购申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0323",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "补采申请查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0324",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "采购变更查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0348",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "合同取消查询",
+      "input_type": "表单自定义控件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0377",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "查询辅助隐藏",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0381",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "预付款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0382",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "到货款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0383",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "验收款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0384",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0385",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "服务费金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0389",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "年份-隐藏",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0390",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "系统日期-隐藏",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0391",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "销售点数",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,3)"
+    },
+    {
+      "column": "field0414",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "售后调度名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0415",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "所属调度",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0420",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "唯一标识服务合同-无原始项目",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0421",
+      "declared_type": "VARCHAR",
+      "length": "100",
+      "display_name": "标识",
+      "input_type": "文本",
+      "final_type": "VARCHAR(100)"
+    },
+    {
+      "column": "field0422",
+      "declared_type": "VARCHAR",
+      "length": "100",
+      "display_name": "产品名称",
+      "input_type": "文本",
+      "final_type": "VARCHAR(100)"
+    },
+    {
+      "column": "field0430",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "实收服务费金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0431",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "已收质保金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0436",
+      "declared_type": "VARCHAR",
+      "length": "100",
+      "display_name": "服务费",
+      "input_type": "文本",
+      "final_type": "VARCHAR(100)"
+    },
+    {
+      "column": "field0437",
+      "declared_type": "VARCHAR",
+      "length": "100",
+      "display_name": "质保金",
+      "input_type": "文本",
+      "final_type": "VARCHAR(100)"
+    },
+    {
+      "column": "field0439",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "实收预付款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0440",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "实收到货款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0441",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "实收验收款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0442",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "回款日期定期触发",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0443",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "触发日期-月份",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0444",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "触发日期-年份",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0445",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "最早应收日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0449",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "合同签回日期-年份",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0452",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否是签订周期服务",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0453",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "周期服务应签日期规则",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0454",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否提前采购",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0456",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "到货签收人",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0458",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "开票日期1",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0460",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "滚动付款金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0461",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "滚动付款实收金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0462",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "统计状态",
+      "input_type": "下拉",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0467",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "核定限额-回写",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0519",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "项目合同台账推送印花税",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0524",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "隐藏字段-授权采购部",
+      "input_type": "选部门",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0525",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "服务应签日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0528",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "技术协议变更文件",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0533",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计预缴不含税销售金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0534",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计冲销不含税销售金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0535",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计开票不含税销售金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0536",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "指定产品处理级别",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0537",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "指定产品是否下单",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0542",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "批量导入合同技术协议",
+      "input_type": "上传附件",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0545",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "框架合同开始时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0546",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "框架合同结束时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0548",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "做计划金额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0551",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "验收部门",
+      "input_type": "选部门",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0552",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "项目经理",
+      "input_type": "选人",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0553",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "日期判断_分析云",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0555",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否满足回款计划",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0557",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "分析云回款合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0558",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "数据服务开始日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0559",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "数据服务停止日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0560",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "数据服务恢复日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0409",
+      "declared_type": "VARCHAR",
+      "length": "50",
+      "display_name": "回款状态",
+      "input_type": "文本",
+      "final_type": "VARCHAR(50)"
+    },
+    {
+      "column": "field0029",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "作废一二类项目所在省份",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0179",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "业绩所属大区",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0195",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "废--一二类产品辅助",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0196",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否下催款流程",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0201",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "0回款",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0204",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否涉及预付款未回",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0224",
+      "declared_type": "DECIMAL",
+      "length": "22",
+      "display_name": "应收超期金额合计",
+      "input_type": "文本",
+      "final_type": "DECIMAL(22,2)"
+    },
+    {
+      "column": "field0256",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否涉及提前实施",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0261",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否涉及到货款未回",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0413",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否已开票未回款",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0416",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否涉及提前发货",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0561",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "累计实际冲销开票税额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0562",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "实施工单进度",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0563",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "客户类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0564",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "产品功能-会签",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0565",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否立塔",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0566",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "服务合同起始时间类型",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0567",
+      "declared_type": "DECIMAL",
+      "length": "22",
+      "display_name": "包含几年服务费",
+      "input_type": "文本",
+      "final_type": "DECIMAL(22,2)"
+    },
+    {
+      "column": "field0568",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "立项状态",
+      "input_type": "单选",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0569",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "系统日期回款",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0570",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "欠款天数-回款",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0571",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "欠款月数-回款",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0572",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "规定触发数字-回款",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0573",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否触发催款",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0574",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "承诺回款时间-催款函",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0575",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "承诺回款时间-律师函",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0576",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "承诺回款时间-起诉",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0577",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "质保金期限天数",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,0)"
+    },
+    {
+      "column": "field0578",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "协议结束日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0579",
+      "declared_type": "VARCHAR",
+      "length": "255",
+      "display_name": "报价流水号",
+      "input_type": "文本",
+      "final_type": "VARCHAR(255)"
+    },
+    {
+      "column": "field0580",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否满足停止条件",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0581",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "停止系统日期",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0584",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "新客户级别",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0585",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "扣除补采维修运费售前预估成本后的软件额",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    },
+    {
+      "column": "field0586",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "是否单项计提坏账",
+      "input_type": "下拉",
+      "final_type": "BIGINT"
+    },
+    {
+      "column": "field0603",
+      "declared_type": "VARCHAR",
+      "length": "20",
+      "display_name": "所跨区域",
+      "input_type": "选部门",
+      "final_type": "VARCHAR(20)"
+    },
+    {
+      "column": "field0604",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "会签发起时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0618",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "预付款应收时间",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0626",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "预计回款最晚",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0627",
+      "declared_type": "TIMESTAMP",
+      "length": "255",
+      "display_name": "上次跟进最晚",
+      "input_type": "日期",
+      "final_type": "DATE"
+    },
+    {
+      "column": "field0628",
+      "declared_type": "DECIMAL",
+      "length": "20",
+      "display_name": "物流费",
+      "input_type": "文本",
+      "final_type": "DECIMAL(20,2)"
+    }
+  ]
+}
